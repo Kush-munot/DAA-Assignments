@@ -29,10 +29,10 @@ int main()
     cout << "Please enter the Compression or Expansion number. If you want to exit give input as -1." << endl;
     cout << "PRINTNG THE MATRIX" << endl;
 
-    int pos = 90;
+    int pos = 10;
     while (pos != -1)
     {
-        i = pos;
+        i = 100-pos;
         for (int j = 0; j < 100; j++)
         {
             for (int k = 0; k < 100; k++)
